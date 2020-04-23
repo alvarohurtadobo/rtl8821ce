@@ -1,3 +1,14 @@
+# Youtube video indications:
+Commands used in this tutorial:
+sudo apt update
+sudo apt install -y dkms git
+git clone "https://github.com/tomaspinho/rtl8821..."
+cd rtl8821ce
+sudo ./dkms-install.sh
+sudo modprobe 8821ce
+P.S. Secure Boot must be disabled !
+
+
 # Realtek RTL8821CE Driver
 
 ## Intent
